@@ -1,8 +1,11 @@
 # SYSTEM INSTRUCTIONS — Friend's Brain Video Analysis Protocol
 
 > **⚠️ CRITICAL: READ THIS FIRST before processing any new training video.**
-> These instructions capture the EXACT methodology developed across 2 full training sessions.
-> Updated: 2026-06-12
+> **THESE ARE LIFE-AND-DEATH OPERATIONAL ORDERS. EXECUTE WITH PERFECTION.**
+> These instructions capture the EXACT methodology developed across 2 full training sessions,
+> 3 analysis passes, 9 total agents deployed, 31 verified implementation details,
+> and 6-dimension psychological/behavioral/linguistic/visual/motivational/cross-reference profiling.
+> Updated: 2026-06-12 | Protocol Version: 3.0
 
 ---
 
@@ -421,5 +424,63 @@ When the user says any of these, execute the FULL protocol (Phases 0-5):
 
 ---
 
+## PHASE 6: THE 6-AGENT DEEP PSYCHOLOGY SWARM (MANDATORY — DEPLOY ALL 6)
+
+> **After completing Phases 0-5 (frame extraction, pixel analysis, transcript cross-reference, strategy extraction, model update), you MUST deploy the 6-agent swarm for complete psychological/behavioral/linguistic/visual/motivational/cross-reference profiling.**
+
+### Agent 1: PSYCHOLOGICAL PROFILER
+**Mission:** Reconstruct his complete psychological architecture.
+**Analyze:** Calmness source (structural immunity, not emotional control), reassurance system (checklist as compulsive ritual), risk psychology (two risk profiles: low financial, extreme drawdown tolerance), confidence architecture (process confidence, not prediction confidence), mental defense mechanisms (6 identified), emotional regulation, psychological evolution, trauma analysis (45D BTC 79% drawdown shaped everything).
+**Key revelation to find:** His system is a self-management cage for fear. Every checklist item answers a specific past fear. He's still the fearful retail trader he once was — now beautifully engineered into discipline.
+
+### Agent 2: LINGUISTIC FORENSICS  
+**Mission:** Extract meaning from every single word.
+**Analyze:** Repetition patterns (quantified frequency), anchor phrases (decoded meaning), do/don't language (complete catalog), certainty gradient (5 levels: 一定→大概率→可能→也可能→不要猜), metaphor system (closed coherent system — feminine body, hunting, navigation, architecture), command language (Commander/Teacher/Friend voices), emotional language, what he DOESN'T say (risk=0 mentions, leverage=0, victim language=0), KUN vs 高总 dual-voice system.
+**Key revelation to find:** "风险" (risk) = ZERO mentions. He deprocesses fear by never naming it. Certain about RULES, uncertain about PREDICTIONS.
+
+### Agent 3: VISUAL MEANING ANALYST
+**Mission:** Decode every color, every line, every spatial choice as a communication system.
+**Analyze:** 8-tier color hierarchy (gold=absolute truth, purple=institutional footprint, teal=living system, brown=structural hypothesis, blue=pure data, light blue=private profit map, aqua=teaching device, navy/bright blue=formula labels), drawing sequence = mental workflow (FOUNDATION→THESIS→REFERENCE→EXECUTION), line thickness meaning, spatial rules (left=past, right=future), annotation meaning, application switching, theme switching (dark=detective mode, light=teacher mode).
+**Key revelation to find:** He NEVER draws in red/green — those are the market's colors. The light blue zone (RGB 164,192,214) is NEVER spoken — his most personal visual element, a window into his mental profit visualization.
+
+### Agent 4: BEHAVIORAL PATTERN ANALYST
+**Mission:** Map the complete reassurance and behavioral operating system.
+**Analyze:** Reassurance hierarchy (MACD零軸=ultimate, then S/R, then candle, then trend, then Fibonacci, then pattern), multi-TF scan as psychological ritual (4 phases: macro reassurance→intermediate→active TF→execution), pre-trade ritual deconstruction (BTC 63,700 short: complete 5-minute sequence), confidence accumulation (step-function thresholds, not linear), post-trade validation ritual (7-step review sequence, 4 psychological layers), "don't" system (10 behavioral guardrails mapped to inferred past failures), pyramiding psychology (confirmation-seeking through position building, anti-averaging-down), low frequency as behavioral regulation.
+**Key revelation to find:** The multi-TF scan is compulsive verification — each "not active" TF is one micro-dose of reassurance. The ritual IS the mechanism.
+
+### Agent 5: MOTIVATION ANALYST
+**Mission:** Find what drives him at the deepest level.
+**Analyze:** His "why" (redemption from MLM past — social redemption, not religious), why he teaches (self-discipline + salvation + identity + compensation), relationship with money (scorecard not goal, 26x BTC trade remembered by process not profit, money=freedom from the system), hunger & ambition (satisfied but not content, shift from personal profit to institution building), community identity (豪门=aspirational family, community as mirror and completion), past-to-present arc (shame→glory, MLM→legitimate trading, "从豪门进入合约这一刻开始，我们就结束了多层次的生涯"), satisfaction sources (student wins > own wins), legacy drive (豪门社区 as enduring institution).
+**Key revelation to find:** Core drive = REDEMPTION through legitimate identity. He's escaping from 传销 stigma. Teaching = saving others from his past traps. Every student win validates his chosen path.
+
+### Agent 6: CROSS-REFERENCE AUDITOR
+**Mission:** Triangulate every piece of data — visual vs verbal vs transcript.
+**Analyze:** 5 key moment triangulations (BTC short, 45D divergence, Fibonacci teaching, stop loss formula, Silver review), visual-verbal gap analysis (what's shown but not said, what's said but not shown), discrepancy detection (contradictions between sessions), unspoken visual information (light blue zone, annotation toggle, color coding, custom Fibonacci settings, theme switching purpose, formula color coding, checklist animation), unvisualized verbal information (hunter metaphor, position sizing philosophy, institution mindset, "don't predict" mantra, news caution), timing gaps (pre-planned vs presented live, scan order inversion, description-before-showing vs showing-before-describing), consistency audit (color changes between sessions, terminology evolution, rule consistency).
+**Key revelations to find:** Scan order is INVERTED (visual 4H→45D vs verbal 45D→4H). "Controlled revelation" — pre-planned, presented as live. "Verbal approximate, visual precise" — intentional teaching gap, precision lives in the visual.
+
+---
+
+## COMPLETE DELIVERABLE CHECKLIST
+
+Before reporting completion for ANY new video, verify ALL items:
+
+```
+□ PHASE 0: All 3 frame types extracted (periodic + scene-change + chart segments)
+□ PHASE 1: ALL frames pixel-classified, chart frames fully analyzed
+□ PHASE 2: ALL 6 agents deployed and completed
+□ PHASE 3: Session analysis document created with frame-verified section
+□ PHASE 4: ALL model documents updated (executable logic + complete model + master model)
+□ PHASE 4: Cross-reference documents updated (formulas + indicators + entry-exit)
+□ PHASE 4: Frame verification report updated with new pixel signatures
+□ PHASE 4: README updated with session count and model version
+□ PHASE 5: Git commit + push to github.com/Jun-code-ai/Friend-Brain
+□ PHASE 6: Memory files updated (friend-brain-project.md + friend-brain-execution-protocol.md)
+□ PHASE 6: MEMORY.md index updated
+□ PHASE 6: SYSTEM-INSTRUCTIONS.md updated if new patterns discovered
+```
+
+---
+
 *This document is the operational bible for the Friend's Brain project.*
-*Follow it EXACTLY. No shortcuts. Every frame matters.*
+*Follow it EXACTLY. No shortcuts. Every frame matters. Every word means life and death.*
+*Protocol Version: 3.0 | Built from 3 analysis passes, 9 agents, 31 verified implementations, 6-dimensional profiling*
