@@ -681,6 +681,52 @@ If MACD is WEAK (minor TF, unclear touch, no divergence):
 
 ---
 
+# BOOK 11: FRAME-VERIFIED VISUAL SECRETS (Second-Pass Pixel Analysis)
+
+## What the Charts Actually Show — Beyond What He Says
+
+### 11.1 The Light Blue Target Zone (RGB 164,192,214)
+
+On the BTC short entry chart, there is a **semi-transparent light blue rectangle** spanning 27-32% of the chart height, positioned between two gold key levels. This zone represents his **mental profit map** — the space between entry and target where he expects price to travel.
+
+He NEVER mentions this zone verbally. It's painted on his chart as a visual reference that he references while teaching but doesn't explain. This is experience-level chart markup that he probably forgot he even draws.
+
+**Significance:** When replicating his entries, you must identify not just the entry level and target level, but the **zone between them** — this is where the trade "lives." If price leaves this zone (either direction), the thesis is challenged.
+
+### 11.2 The Annotation Toggle Workflow
+
+He teaches by cycling through 3 visual states:
+1. **FULL ANALYSIS**: All lines, zones, and annotations visible (the complete pre-analyzed chart)
+2. **CLEANED**: All annotations removed (blank chart for step-by-step teaching)
+3. **RESTORED**: Annotations brought back (confirming the analysis)
+
+**Significance:** When analyzing his charts, a single frame shows only 1/3 of the full picture. You need to compare consecutive frames to see what he ADDED or REMOVED — this reveals his drawing ORDER and mental workflow.
+
+### 11.3 The Pre-Planned Fibonacci
+
+He opens the Fibonacci settings dialog FIRST, switches to his lesson notes, then displays the Fibonacci result. The Fibonacci was NOT drawn live — it was **pre-configured** before the teaching segment and revealed when ready.
+
+**Significance:** His Fibonacci anchor points were chosen during his PRE-SESSION analysis, not during the live teaching. The "hunting range" is established BEFORE the session begins. Live teaching shows the RESULT of earlier analysis.
+
+### 11.4 The Multi-Application Setup
+
+Black transition frames reveal he uses at minimum:
+- **TradingView** (chart analysis)
+- **Document editor** (lesson notes — 66% white, 21,504 colors)
+- **Spreadsheet/equation editor** (formula worksheet — 186,426 colors with blue variables and red results)
+- He **alt-tabs** between them while teaching
+
+**Significance:** His brain operates across multiple tools simultaneously. Replicating his system requires more than just a chart — it requires notes and a calculation sheet.
+
+### 11.5 The Checklist Animation
+
+The 6-step checklist is NOT static slides. It has **animated cyan elements** (RGB 7,235,182) that appear and disappear between frames. Each checklist item is revealed sequentially with a visual animation.
+
+**Significance:** He teaches the checklist as a SEQUENCE, revealing one step at a time. This reinforces the ORDER of operations — Trend first, Candle last. The animation is the visual representation of his mental sequence.
+
+---
+
+*Added from second-pass frame re-analysis — 10 new pixel-level discoveries*
 *Master synthesis document — combining WHAT he does with WHY he does it*
-*Built from: transcripts, 964 frames, 21 verified implementations, 3 deep-thinking analyses*
+*Built from: transcripts, 964 frames, 21 verified implementations, 3 deep-thinking analyses, 10 new frame discoveries*
 *Goal: Replicate his brain. Trade with his eyes.*

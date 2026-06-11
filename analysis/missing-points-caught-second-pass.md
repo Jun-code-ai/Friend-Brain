@@ -207,3 +207,45 @@ Based on this deeper analysis, these are the specific frame details still needed
 ---
 
 *Second-pass findings — to be merged with agent outputs for final synthesis*
+
+---
+
+## 11. FRAME RE-ANALYSIS FINDINGS (Pixel-Level Discoveries First Pass Missed)
+
+### Finding #1: The LIGHT BLUE TARGET ZONE (RGB 164,192,214)
+The BTC short entry chart has a **semi-transparent light blue zone fill** spanning from y=208 to y=452 (27-32% of chart height) — between two gold key levels. This is his unspoken **TARGET ZONE** — the area where he expects price to land. He never verbally mentions this rectangle, but it's painted on his chart. This is the visual representation of his profit target.
+
+### Finding #2: MACD Histogram Is Specifically BEARISH
+Frame day3_0172 (45D MACD): Red bars = 7.08% of indicator zone. Green bars = only 0.08%. The divergence is **bearish** — price making higher highs while MACD makes lower highs with dominant red histogram. First pass only said "divergence" without specifying direction.
+
+### Finding #3: Annotation Toggle Workflow
+He cycles through 3 states while teaching: **Full Analysis → CLEANED → Restored**. Frame evidence shows gold pixels dropping from 44,288 to 7,547 then back to 44,781. He shows the complete pre-analyzed chart, clears ALL annotations to teach step-by-step, then restores them. This is a TEACHING workflow, not live analysis.
+
+### Finding #4: Fibonacci Was Pre-Configured
+Settings dialog (frame 144127) was opened BEFORE Fibonacci appeared. Then he switched to lesson notes (frame 145215, 66% white) while the dialog was open. Then Fibonacci appeared on chart (frame 145310). Then removed (frame 146892, 0 yellow pixels). This is **pre-planned analysis** — he prepared the Fibonacci drawing before the session.
+
+### Finding #5: Checklist Slides Have Cyan Animation
+The checklist sequence has an animated **bright aqua element** (RGB 7,235,182) that animates between frames: 9,068px → 8,708px → 5,744px → 374px (disappears). This is a presentation reveal animation — the cyan title element fades out as the next slide appears. Not visible in static analysis.
+
+### Finding #6: STO Frame Has Unique Blue-Tinted Background
+Frame day3_0107 has a distinctive **dark blue background** (RGB 16,29,37) at 18.5% — different from his normal dark chart (RGB 15,15,15). The STO lines are extremely thin: %K line = only 642px, %D line = only 410px. This suggests a **theme transition** or semi-transparent indicator panel.
+
+### Finding #7: Stop Loss Formula Is a Complex Worksheet
+Frame day3_0297 is NOT a simple document. It has **186,426 unique colors** (vs 21,504 in Day 2 notes). Structure: Yellow header at y=25%, blue formula labels (RGB 30,40,127 and 59,87,248) at y=45-70%, red calculated values at 0.53-2.39%. This is a **color-coded formula worksheet** — likely an Excel or equation editor document.
+
+### Finding #8: Three Distinct Document Types
+| Type | Colors | Purpose | Session |
+|------|--------|---------|---------|
+| Lesson notes | 21,504 unique, 66% white | Teaching script | Day 2 |
+| Formula worksheet | 186,426 unique, blue+red+white | Calculations | Day 3 |
+| Presentation slides | 184K+ colors, cyan animated | Checklist | Day 3 |
+
+### Finding #9: He Alt-Tabs Between Applications
+Black transition frames (~50% pure black) appear throughout. He switches between: **TradingView → Lesson notes document → Possibly a spreadsheet → Back to TradingView**. His setup is multi-application.
+
+### Finding #10: Light Blue Zone = His Mental Target Map
+The light blue zone (RGB 164,192,214) at 7,399 pixels is positioned BETWEEN the entry level and the target level on the BTC chart. This is NOT a standard TradingView drawing tool color. It's a custom zone fill that represents his **mental map of where profit lives** — the space between entry and target.
+
+---
+
+*Second-pass findings complete — all integrated into master model*
