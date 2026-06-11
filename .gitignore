@@ -1,0 +1,17 @@
+# Large binary files — kept locally, not pushed to GitHub
+# Videos and audio (700MB+ each)
+videos/**/*.mp4
+videos/**/*.m4a
+
+# Extracted video frames (964 files, 123MB total)
+analysis/frames/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~$*
