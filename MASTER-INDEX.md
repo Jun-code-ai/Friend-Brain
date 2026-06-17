@@ -8,14 +8,14 @@
 ## PROJECT OVERVIEW
 
 **Subject:** Topman 高总, Executive President — 豪门社区
-**Sessions Analyzed:** 2 (Week 1 Day 2: 2026-06-10, Week 1 Day 3: 2026-06-11)
-**Total Video Duration:** ~4h 44m
-**Frames Extracted:** ~4,800+ across all passes
-**Analysis Passes:** 4 (Initial, Second-Pass, 6-Agent Swarm, 500% Surgical)
-**Total Agents Deployed:** 12
-**GitHub:** `github.com/Jun-code-ai/Friend-Brain` — 39 files, 8 commits
-**Model Version:** v3.0
-**Total Analysis Text:** 943 KB
+**Sessions Analyzed:** 3 (Week 1 Day 2: 2026-06-10, Week 1 Day 3: 2026-06-11, **Week 2 Day 1: 2026-06-16**)
+**Total Video Duration:** ~6h 34m (Week1: ~4h44m + Week2 Day1: ~1h50m)
+**Frames Extracted:** ~6,200+ across all passes (4,800+ Week1 + 610 Week2 Day1)
+**Analysis Passes:** 5 (Initial, Second-Pass, 6-Agent Swarm, 500% Surgical, **Week 2 Day 1 Analysis**)
+**Total Agents Deployed:** 15 (12 Week1 + 3 Week2 Day1)
+**GitHub:** `github.com/Jun-code-ai/Friend-Brain`
+**Model Version:** v2.0 (Decision Model) / v3.0 (Protocol)
+**Total Analysis Text:** 1,200+ KB
 
 ---
 
@@ -78,11 +78,12 @@
 | `replicate-his-brain-master-model.md` | 35.5 | **THE MASTER DOCUMENT** — 13 Books covering every dimension |
 | `template.md` | 1.6 | Original template (superseded) |
 
-### Session Analyses (2 files)
+### Session Analyses (3 files)
 | File | KB | Content |
 |------|-----|---------|
 | `2026-06-10_Week1_Day2_*.md` | 19.0 | Day 2 session + frame-verified Section 10 |
 | `2026-06-11_Week1_Day3_*.md` | 30.2 | Day 3 session + frame-verified Section 17 |
+| `2026-06-16_Week2_Day1_*.md` | ~40.0 | **NEW** Wallet Management + Probability Framework + Live Trades
 
 ### Cross-Reference Compendiums (4 files)
 | File | KB | Content |
@@ -268,8 +269,21 @@
 9. The **light blue zone** (RGB 164,192,214) is his most personal visual element — NEVER spoken, ALWAYS drawn.
 10. **4 GATE CONDITIONS** determine every trade: Stop + Candle + Active TF + Price AT S/R.
 
+### NEW CONCLUSIONS (Week 2 Day 1 — 2026-06-16)
+
+11. **Wallet Management is the real edge.** The trainer says it himself: "只改变了钱包管理以后，整个的交易历程是开挂的" — capital allocation discipline matters MORE than technical skill.
+12. The **Bullet Method (子弹法)** — dividing investment capital into 100 units — is his framework for eliminating catastrophic risk. Each bullet = 1%. Never exceed 20 bullets on one thing.
+13. **Probability is stacked, not found.** Every trade starts at 50/50. Each confirmed checklist factor adds ~3%. Maximum achievable = 68%. This reframes trading as edge-stacking, not certainty-seeking.
+14. The **Umbrella Principle** (雨伞=止损) is the most elegant stop-loss metaphor: you bring an umbrella when rain chance >50%. You always set a stop loss. No exceptions. No excuses.
+15. **砍单 (removing stops) = community expulsion.** This is the ONE unforgivable sin. He's seen it destroy too many accounts.
+16. The **3-layer capital allocation** (Survival 50% → Emergency 20-30% → Investment 30%) is the pre-trading financial foundation. Without it, psychology breaks under pressure.
+17. **Metals intraday, Crypto multi-day** — asset-specific holding rules based on market microstructure behavior.
+18. **Weekly TF overrides Daily TF** when they conflict. The higher timeframe is always the "boss" (老大).
+19. **Move SL to breakeven at 1:1 R:R** is the first taught trade management rule beyond the basic entry/exit framework. Full trailing methodology still pending.
+20. The trainer has evolved from "I don't do short-term" to "I can, I just choose not to" — demonstrating adaptive flexibility while maintaining his core swing/position bias.
+
 ---
 
-*This index documents EVERYTHING about the Friend's Brain project as of 2026-06-12.*
-*39 files on GitHub. 12 agents deployed. 4 analysis passes. 943 KB of pure trading intelligence.*
+*This index documents EVERYTHING about the Friend's Brain project as of 2026-06-17.*
+*3 sessions analyzed. 15 agents deployed. 5 analysis passes. 1,200+ KB of pure trading intelligence.*
 *When new videos arrive: this entire protocol executes with zero shortcuts.*

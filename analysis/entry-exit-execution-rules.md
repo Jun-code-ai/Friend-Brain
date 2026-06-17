@@ -1,6 +1,7 @@
 # Friend's Entry & Exit Execution Rules — Complete Protocol
 
-> Every entry condition, exit trigger, timing rule, and execution sequence from Week 1 Day 2 & 3
+> Every entry condition, exit trigger, timing rule, and execution sequence from Week 1 Day 2, Day 3 & Week 2 Day 1
+> **Updated:** 2026-06-17 with Wallet Management, Discipline Rules, Asset-Specific Rules
 
 ---
 
@@ -445,4 +446,136 @@ Monthly loss limit: Step back, paper trade, rebuild confidence
 
 ---
 
-*Compiled from transcripts + video frame analysis | June 2026*
+## 13. WALLET MANAGEMENT BEFORE ENTRY (Week 2 Day 1 — NEW)
+
+### 13.1 Pre-Trade Capital Check
+```
+BEFORE ANY TRADE:
+1. Confirm total net worth split (L1: 50% Survival, L2: 20-30% Emergency, L3: ~30% Investment)
+2. Confirm only Layer 3 capital is being used
+3. Calculate per-bullet size: Investment Capital ÷ 100
+4. Determine bullet allocation for this trade (1-20 bullets)
+5. Verify within-trading split (50% spot / 50% contract)
+6. Verify funds are NOT all on one exchange/wallet
+```
+
+### 13.2 Bullet Allocation by Conviction
+```
+Per-Trade Bullet Allocation:
+  Low conviction → 1-3 bullets
+  Moderate → 3-5 bullets
+  High → 5-10 bullets
+  Maximum → 20 bullets (never exceed 20% of investment capital)
+```
+
+---
+
+## 14. COMMUNITY DISCIPLINE RULES (Week 2 Day 1 — NEW)
+
+### 14.1 No 砍单 Rule (ABSOLUTE PROHIBITION)
+```
+砍单 = Removing, cancelling, or widening a stop loss to avoid taking a loss.
+
+FORBIDDEN:
+  ✗ Remove stop loss entirely
+  ✗ Move stop FURTHER from entry (widening the loss)
+  ✗ Cancel stop because "it might come back"
+  ✗ "我就再等等" (I'll just wait a bit more) → THIS IS 砍单
+
+PENALTY: Permanent community ban
+  "如果有人砍单的话，我就把你踢出群里面以后不能进来我们的社群"
+
+PERMITTED STOP ADJUSTMENTS:
+  ✓ Move SL to breakeven at 1:1 R:R
+  ✓ Trailing stop behind new structural swing point
+  ✓ Partial TP with rest of position stop intact
+```
+
+### 14.2 Accept Loss (认输认亏)
+```
+PHILOSOPHY:
+  "亏就亏，知道吧，但是亏的合理"
+  Accept losses. But ensure they are REASONABLE (within planned stop).
+
+MATH PROOF:
+  Lose 200U (proper SL) → Win 600U next trade → Net +400U ✓
+  Lose 700U (砍单) → Win 600U next trade → Net -100U ✗
+
+BEHAVIORAL RULE:
+  When winning: "赢的话我不止盈" — Let it run to target
+  When losing: "输的话我是好尽快下决定" — Decide quickly (hold to SL or close)
+```
+
+### 14.3 Stop Loss is NON-NEGOTIABLE
+```
+"下任何一个单子，你必须得带止损"
+This has been emphasized "非常多的遍" (countless times).
+No exceptions. No excuses. No "this time is different."
+
+The Umbrella Principle:
+  Rain probability > 50% → Bring umbrella
+  Trade probability < 100% → Set stop loss
+  "今天不管下不下雨，雨伞总得带"
+```
+
+### 14.4 One-at-a-Time Rule
+```
+"不要一次过下10个单下去...一单一单来"
+Maximum 2 concurrent positions.
+Quality over quantity.
+```
+
+---
+
+## 15. ASSET-SPECIFIC HOLDING RULES (Week 2 Day 1 — NEW)
+
+### 15.1 Metal Close Rule
+```
+APPLIES TO: XAUUSD (Gold), XAGUSD (Silver)
+
+IF position is still open at 11:30 PM (bedtime):
+  AND price is ranging (徘徊):
+    → CLOSE POSITION regardless of P/L
+  Reason: Metals mostly range ("大多都是横盘的")
+  Unlike crypto, metals don't trend strongly overnight
+
+"到晚上11点半睡觉前他都还没...请把它平掉"
+```
+
+### 15.2 Crypto Hold Rule
+```
+APPLIES TO: BTC, NEAR, HYPE, ETH
+
+IF setup remains valid:
+  → Hold for days ("拿个几天的")
+  Reason: Crypto trends directionally ("往一个方向走，就走完它")
+  No bedtime close requirement
+```
+
+### 15.3 Move SL to Breakeven at 1:1 R:R
+```
+TRIGGER: Price reaches 1:1 R:R (profit = initial risk)
+ACTION: Move stop loss to entry price
+RESULT: Zero-risk trade (only cost if hit = commission)
+
+"把止损点移到你的进场价位...亏的话，就亏个手续费"
+
+Demonstrated on Silver (XAGUSD) live trade during Week 2 Day 1.
+```
+
+### 15.4 Weekly Overrides Daily Conflict Resolution
+```
+WHEN Daily and Weekly timeframes CONTRADICT:
+  → WEEKLY WINS
+  "日图跟周图我会选择周图作为我的老大"
+
+WHEN Daily confirms Weekly:
+  → Use Daily for entry refinement
+
+This resolves the "矛盾体" (contradiction) problem demonstrated on NEAR.
+```
+
+---
+
+*Compiled from transcripts + video frame analysis | Last updated: 2026-06-17*
+*Sources: Week 1 Day 2, Week 1 Day 3, Week 2 Day 1*

@@ -2,7 +2,8 @@
 
 > **This is the algorithmic representation of the friend's brain.**
 > Follow these steps EXACTLY in order. Each step maps to a specific action he takes.
-> Compile from 2 full training sessions (Week 1 Day 2 & 3). Future sessions will refine.
+> Compile from 3 full training sessions (Week 1 Day 2, Day 3 & Week 2 Day 1).
+> **v2.0 — Added Wallet Initialization (Phase -1), Probability Calculation (Phase 7), Post-Trade Management (Phase 12)**
 
 ---
 
@@ -596,5 +597,151 @@ START
 
 ---
 
-*Last updated: 2026-06-12 | Based on: 2 complete training sessions*
+## PHASE -1: WALLET INITIALIZATION (Week 2 Day 1 — NEW)
+
+```
+BEFORE any trading session begins, verify capital structure:
+
+STEP -1.1 — Calculate total net worth
+  □ Sum all assets (cash, investments, property equity)
+
+STEP -1.2 — Apply 3-Layer Split
+  □ L1 Survival (生存支出): Total × 50% → living expenses + debt
+  □ L2 Emergency (备用金): Total × 20-30% → untouchable
+  □ L3 Investment (投资资金): Remaining → ONLY this for trading
+
+STEP -1.3 — Calculate Bullet Size
+  □ Per-Bullet = L3 Investment Capital ÷ 100
+
+STEP -1.4 — Split Trading Allocation (10-20 bullets)
+  □ 50% Spot/DCA → long-term passive
+  □ 50% Contract/FX → active trading
+
+STEP -1.5 — Verify Platform Distribution
+  □ NOT all funds on one exchange
+  □ NOT all funds in one wallet
+  □ Spread across multiple platforms
+
+STEP -1.6 — Determine Per-Trade Bullet Allocation
+  □ Low conviction → 1-3 bullets
+  □ Moderate → 3-5 bullets
+  □ High → 5-10 bullets (max 20 for anything)
+
+FOR SMALL ACCOUNTS (<$1,000):
+  □ Skip 3-layer split
+  □ 100% in contracts
+  □ 70-80% copy-trade, 20-30% self-trade
+  □ Still split into 10-20 parts
+```
+
+---
+
+## PHASE 6.5: PROBABILITY CALCULATION (Week 2 Day 1 — NEW)
+
+```
+After completing Phases 1-6 (the 6-step checklist):
+
+STEP 6.5.1 — Count confirmed factors (N)
+  □ Trend confirmed in trade direction?         (+3%)
+  □ S/R level at entry zone?                    (+3%)
+  □ Trendline/Pattern confirmed?                (+3%)
+  □ MACD on active TF confirms direction?       (+3%)
+  □ Price in Fibonacci hunting range?           (+3%)
+  □ Reversal candle confirmed?                  (+3%)
+
+STEP 6.5.2 — Calculate probability
+  P = 50% + (N × 3%)
+  
+  N=0 → 50% (DO NOT TRADE)
+  N=1 → 53% (DO NOT TRADE)
+  N=2 → 56% (DO NOT TRADE)
+  N=3 → 59% (MINIMUM THRESHOLD)
+  N=4 → 62%
+  N=5 → 65%
+  N=6 → 68% (MAXIMUM)
+
+STEP 6.5.3 — Decision
+  IF P < 59% → PASS (wait for more confluence)
+  IF P ≥ 59% → Continue to Phase 7 (Entry Execution)
+  
+  REMEMBER: Even at 68%, the trade can lose.
+  This is why R:R ≥ 1:3 and SL are MANDATORY.
+```
+
+---
+
+## PHASE 12: POST-TRADE MANAGEMENT (Week 2 Day 1 — NEW)
+
+```
+STEP 12.1 — Move SL to Breakeven at 1:1 R:R
+  TRIGGER: Price reaches 1:1 R:R (profit = initial risk)
+  ACTION: Move stop loss to entry price
+  RESULT: Zero-risk trade (only cost if hit = commission)
+  "把止损点移到你的进场价位...亏的话，就亏个手续费"
+
+STEP 12.2 — Asset-Specific Close Rules
+  FOR METALS (XAUUSD, XAGUSD):
+    IF open at 11:30 PM bedtime:
+      AND price is ranging (徘徊):
+        → CLOSE regardless of P/L
+    Reason: Metals mostly range, don't trend overnight
+    
+  FOR CRYPTO (BTC, NEAR, HYPE):
+    IF setup still valid:
+      → HOLD for days to target
+    Reason: Crypto trends directionally
+
+STEP 12.3 — NEVER 砍单
+  DEFINITION: Removing/widening stop loss to avoid loss
+  RULE: ABSOLUTELY FORBIDDEN
+  Let SL do its job. Accept the loss if hit.
+  "亏就亏，知道吧，但是亏的合理"
+
+STEP 12.4 — Capital Extraction
+  WHEN contract account exceeds original allocation:
+    → Extract profits to spot/DCA or Layer 1/2
+    → Keep contract account at original size
+  "资金多了我都会把它拿出来变少一点再去交易"
+
+STEP 12.5 — Regular Wallet Rebalancing
+  Monthly/Quarterly:
+    □ Recalculate total net worth
+    □ Verify 3-layer allocation still correct
+    □ Adjust bullet sizes if investment capital changed
+    □ Rebalance spot/contract split
+```
+
+---
+
+## PHASE 13: CONFLICT RESOLUTION (Week 2 Day 1 — NEW)
+
+```
+STEP 13.1 — When Timeframes Contradict
+  IF Daily and Weekly timeframes disagree:
+    → WEEKLY WINS (周图是老大)
+    "日图跟周图我会选择周图作为我的老大"
+
+  IF Daily confirms Weekly:
+    → Use Daily for entry refinement
+
+STEP 13.2 — Divergence Chain Validation
+  Larger TF divergence must be CONFIRMED by smaller TF divergences:
+    "更小的背离才形成大背离"
+  
+  Example: Daily MACD divergence → Check if 8H, 6H, 4H also show divergence
+  Only when multiple TFs align → "大背离" confirmed
+
+STEP 13.3 — When R:R < 1:3 (Exception Rule)
+  NORMAL RULE: Minimum 1:3 R:R
+  EXCEPTION: Can accept lower R:R ONLY IF:
+    □ 5+ checklist factors aligned (P ≥ 65%)
+    □ No resistance on ANY timeframe (rare — "都豁出去了")
+    □ Position sized smaller than normal (lower conviction size)
+  Example: NEAR at ~1:1.4 entered because 5+ factors + zero resistance on all TFs
+```
+
+---
+
+*Last updated: 2026-06-17 | Based on: 3 complete training sessions (Week 1 Day 2, Day 3, Week 2 Day 1)*
+*Model Version: v2.0 — Added Wallet Init, Probability Calc, Post-Trade Mgmt, Conflict Resolution*
 *This model will be refined and expanded with each new video uploaded.*

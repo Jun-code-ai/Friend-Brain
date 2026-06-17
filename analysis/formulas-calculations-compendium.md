@@ -1,6 +1,7 @@
 # Friend's Trading Formulas & Calculations — Complete Compendium
 
-> Every formula, mathematical method, and calculation logic extracted from Week 1 Day 2 & Day 3
+> Every formula, mathematical method, and calculation logic extracted from Week 1 Day 2, Day 3 & Week 2 Day 1
+> **Updated:** 2026-06-17 with Wallet Management + Probability formulas from Week 2 Day 1
 
 ---
 
@@ -520,4 +521,128 @@ Trainer: "三个到四个是四个以上对应的，来这个单就把握性很�
 
 ---
 
-*Compiled from transcripts + video frame analysis | June 2026*
+## 14. WALLET MANAGEMENT FORMULAS (Week 2 Day 1 — NEW)
+
+### 14.1 Three-Layer Capital Allocation
+```
+Layer 1 (生存支出 - Survival):  Total Net Worth × 50%
+Layer 2 (备用金 - Emergency):    Total Net Worth × 20-30%
+Layer 3 (投资资金 - Investment):  Total Net Worth × 20-30%
+
+Validation: L1 + L2 + L3 = Total Net Worth
+```
+
+### 14.2 Bullet Method Formula
+```
+Per-Bullet Size = Investment Capital ÷ 100
+
+Where: Investment Capital = Layer 3 from above
+
+Example Calculations:
+  $50,000 IC → $500/bullet
+  $10,000 IC → $100/bullet
+  $3,000 IC  → $30/bullet
+  $1,000 IC  → $10/bullet
+```
+
+### 14.3 Bullet Allocation Ranges
+```
+Testing/Low Conviction:      1 bullet  (1% of IC)
+Moderate Conviction:        3-5 bullets (3-5% of IC)
+High Conviction:           5-10 bullets (5-10% of IC)
+Trading Allocation:       10-20 bullets (10-20% of IC)
+Maximum Any Single Thing:    20 bullets (20% of IC) — never exceed
+```
+
+### 14.4 Within-Trading Sub-Allocation
+```
+Trading Capital = [10-20 bullets]
+  ├─ Spot/DCA (现货/定投):   50% of Trading Capital
+  └─ Contract/FX (合约/外汇): 50% of Trading Capital
+
+Example ($10,000 Trading Capital):
+  Spot:    $5,000 (DCA, long-term hold)
+  Contract: $5,000 (active trading)
+```
+
+### 14.5 Copy-Trade Allocation (Small Accounts)
+```
+For accounts < $3,000:
+  Copy Trade (跟单):  70-80% of trading capital
+  Self Trade (自主):   20-30% of trading capital
+  
+  Self Trade Sub-Allocation:
+    Divide into 10-20 parts
+    Example: $1,000 × 30% = $300 → 10 parts = $30/part
+```
+
+### 14.6 Capital Extraction Rule
+```
+When Contract Account Profits > Original Allocation:
+  → Extract excess profits
+  → Keep contract account at original size
+  → Move extracted profits to: Spot/DCA or Layer 1/2
+
+Trainer: "资金多了我都会把它拿出来变少一点再去交易"
+```
+
+---
+
+## 15. PROBABILITY STACKING FORMULAS (Week 2 Day 1 — NEW)
+
+### 15.1 Core Probability Formula
+```
+P(N) = 50% + (N × 3%)
+
+Where: N = number of confirmed checklist factors (0 ≤ N ≤ 6)
+
+P(0) = 50% (coin flip — DO NOT TRADE)
+P(1) = 53%
+P(2) = 56%
+P(3) = 59% (MINIMUM TRADE THRESHOLD)
+P(4) = 62%
+P(5) = 65%
+P(6) = 68% (MAXIMUM ACHIEVABLE)
+
+CRITICAL: Even at maximum confluence, probability never exceeds 68%.
+This is why strict R:R (minimum 1:3) and stop losses are NON-NEGOTIABLE.
+```
+
+### 15.2 Factor Mapping
+```
+Checklist Step → Factor → Cumulative Probability
+─────────────────────────────────────────────────
+Start                → 50%
+1. Trend confirmed   → +3% → 53%
+2. S/R confirmed     → +3% → 56%
+3. Pattern confirmed → +3% → 59% ← Minimum trade
+4. MACD confirmed    → +3% → 62%
+5. Fibonacci conf.   → +3% → 65%
+6. Candle confirmed  → +3% → 68% ← Maximum
+```
+
+### 15.3 Breakeven Win Rate with Probability
+```
+At P(3) = 59%:  R:R > 1:0.69 needed (easily satisfied by 1:3)
+At P(4) = 62%:  R:R > 1:0.61 needed
+At P(5) = 65%:  R:R > 1:0.54 needed
+At P(6) = 68%:  R:R > 1:0.47 needed
+
+Formula: Required R:R = (1 - P) ÷ P
+Example at P=59%: (1 - 0.59) ÷ 0.59 = 0.695 → 1:0.7 minimum
+```
+
+### 15.4 Expected Value with Probability
+```
+EV per trade = (P × Win_Amount) - ((1-P) × Loss_Amount)
+
+Example: P=65%, Win=300U, Loss=100U (1:3 R:R)
+  EV = (0.65 × 300) - (0.35 × 100)
+     = 195 - 35
+     = +160U per trade
+```
+
+---
+
+*Compiled from transcripts + video frame analysis | Last updated: 2026-06-17*
+*Sources: Week 1 Day 2, Week 1 Day 3, Week 2 Day 1*

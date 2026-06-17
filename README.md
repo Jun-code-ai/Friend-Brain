@@ -49,35 +49,39 @@ Tell Claude Code:
 
 ## Status
 
-- Videos: 2 uploaded (Week 1 Day 2 & Day 3 — MP4 + M4A audio)
-- Transcripts: 6 extracted (3 per session, .docx — meeting notes + timeline + full transcript)
-- Video frames: **779 extracted + pixel-analyzed** (384 Day2 + 395 Day3)
-- Pixel-level verification: **17 elements CONFIRMED** across both sessions
-- Sessions analyzed: 2 (fully dissected with frame-level evidence)
-- Decision model version: **v2.0** (complete executable logic with pixel-verified implementation)
+- Videos: **3 uploaded** (Week 1 Day 2, Day 3, Week 2 Day 1 — MP4 + M4A audio)
+- Transcripts: **9 extracted** (3 per session, .docx — meeting notes + timeline + full transcript)
+- Video frames: **~1,389 extracted + analyzed** (779 Week1 + 610 Week2 Day1)
+- Sessions analyzed: **3** (fully dissected with frame-level evidence + 6-agent swarm for Week 1)
+- Decision model version: **v2.0** (Wallet Management + Probability Framework added)
 
 ### Latest Analysis
 | Session | Date | Topics | Analysis File |
 |---------|------|--------|---------------|
 | Week 1 Day 2 | 2026-06-10 | Triangle patterns, Fibonacci, timeframe hierarchy, candlestick codes | `analysis/2026-06-10_Week1_Day2_*.md` |
 | Week 1 Day 3 | 2026-06-11 | Position sizing, R:R math, STO, MACD divergence, trading checklist | `analysis/2026-06-11_Week1_Day3_*.md` |
+| **Week 2 Day 1** | **2026-06-16** | **Wallet Management, Probability Framework, Live Trading (Silver/NEAR), Community Discipline** | `analysis/2026-06-16_Week2_Day1_*.md` |
 
 ### Decision Model Coverage
 - ✅ Timeframe hierarchy (standard + proprietary 45D-15m MACD scan)
-- ✅ 6-step trading checklist with confidence scoring
+- ✅ 6-step trading checklist with mathematical probability scoring
 - ✅ Candlestick code system (美女/胖妞/吞没/早晨之星/黄昏之星)
 - ✅ S/R drawing methodology (3-touch + flipped + EMA52)
 - ✅ Entry timing (limit/stop/market/scale-in protocols)
-- ✅ Exit timing & trade duration definitions
+- ✅ Exit timing & trade duration definitions (metal vs crypto)
 - ✅ R:R mathematics (breakeven table + position sizing formula)
-- ✅ Stop loss calculation (Brainless Method A + Chart Method B)
+- ✅ Stop loss calculation (Brainless Method A + Chart Method B + Breakeven-at-1:1)
 - ✅ Multi-pair analysis (BTC dominance cascade, correlation matrix)
 - ✅ News avoidance (FOMC/NFP/CPI + 21:00 US open reversal pattern)
-- ✅ MACD zero-axis multi-timeframe system
+- ✅ MACD zero-axis multi-timeframe system + Divergence Chain
 - ✅ STO (9,3,3) indicator settings and usage
 - ✅ Fibonacci hunting range methodology
 - ✅ Trader psychology & discretionary layer
-- ⬜ MACD timeframe deep dive (promised for Week 2)
+- ✅ **Wallet Management System** (3-layer allocation + Bullet Method)
+- ✅ **Probability Stacking Framework** (50%+(N×3%) formula)
+- ✅ **Community Discipline Rules** (No 砍单, 认输认亏, Umbrella Principle)
+- ✅ **Asset-Specific Holding Rules** (Metal intraday close, Crypto multi-day)
+- ⬜ MACD timeframe standalone deep dive (applied live, partial)
 - ⬜ Fibonacci reverse extension (promised for future)
 - ⬜ Position pyramiding strategy (mentioned, not detailed)
-- ⬜ Trailing stop methodology (referenced, not taught)
+- ⬜ Full trailing stop methodology (breakeven at 1:1 taught, full trail pending)

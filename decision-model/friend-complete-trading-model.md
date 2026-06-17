@@ -1,8 +1,9 @@
-# Friend's Complete Trading Model v1.0
+# Friend's Complete Trading Model v2.0
 
-> **Compiled from:** Week 1 Day 2 & Day 3 Zoom training sessions (June 10-11, 2026)
+> **Compiled from:** Week 1 Day 2, Day 3 & Week 2 Day 1 Zoom training sessions (June 10-16, 2026)
 > **Trainer:** Topman 高总, Executive President — 豪门社区
 > **Performance Context:** 6/6 profitable months (Jan-Jun 2026), 55%+ win rate, ~$21.8K profit, monthly ROI 40%+ (peak 170%+), 4-6 trades/month avg
+> **New in v2.0:** Wallet Management System (Section 16), Probability Stacking Framework (Section 17), Community Discipline Rules (Section 18)
 
 ---
 
@@ -564,16 +565,25 @@ The following topics were MENTIONED but not yet fully taught. These will be extr
 
 | Topic | Status | Expected In |
 |-------|--------|-------------|
-| **MACD时间级别详解** (MACD timeframe deep dive) | "下周二继续" | Week 2 Day 1 |
-| **Fibonacci反向延伸** (Reverse Fibonacci extension) | "下次再教" | Future session |
-| **具体加仓策略** (Pyramiding/adding to positions) | Mentioned but not detailed | Future session |
-| **移动止盈/追踪止损** (Trailing stop methodology) | Referenced but not taught | Future session |
-| **江恩理论** (Gann Theory) | Tool exists in TradingView, not taught | Unknown |
-| **成交量分析** (Volume analysis) | Not mentioned yet | Unknown |
-| **市场情绪判断** (Market sentiment) | Partially covered in "feel" layer | Needs more |
-| **具体仓位计算公式** (Exact position size formula) | AI method shown, manual calc not detailed | Future session |
-| **交易日志模板** (Trade journal template) | Mentioned he journals every trade | Not shared |
-| **概率判断框架** (Probability framework) | "迟一点我也会覆盖到" | Future session |
+| **MACD时间级别详解** (MACD timeframe deep dive) | ⬜ Partially filled (Week 2 Day 1 — applied live with divergence chain) | More depth needed |
+| **Fibonacci反向延伸** (Reverse Fibonacci extension) | ⬜ "下次再教" | Future session |
+| **具体加仓策略** (Pyramiding/adding to positions) | ⬜ Mentioned but not detailed | Future session |
+| **移动止盈/追踪止损** (Trailing stop methodology) | ⬜ Partially — breakeven at 1:1 taught | Full trail pending |
+| **江恩理论** (Gann Theory) | ⬜ Tool exists in TradingView, not taught | Unknown |
+| **成交量分析** (Volume analysis) | ⬜ Not mentioned yet | Unknown |
+| **市场情绪判断** (Market sentiment) | ⬜ Partially covered in "feel" layer | Needs more |
+| **具体仓位计算公式** (Exact position size formula) | ✅ Bullet Method filled (Week 2 Day 1) | — |
+| **交易日志模板** (Trade journal template) | ⬜ Mentioned he journals every trade | Not shared |
+| **概率判断框架** (Probability framework) | ✅ FULLY FILLED (Week 2 Day 1) | — |
+| **钱包管理/仓位管理** (Wallet + Position Management) | ✅ FULLY FILLED (Week 2 Day 1) | — |
+
+**New Gaps from Week 2 Day 1:**
+| Topic | Status |
+|-------|--------|
+| BTC 67,900 short setup outcome | Track in future sessions |
+| Gold 4,370.28 conditional short outcome | Track in future sessions |
+| NEAR long (2.28→3.079) outcome | Track in future sessions |
+| Wallet management homework review | Next session (Week 2 Day 2) |
 
 ---
 
@@ -598,5 +608,241 @@ The following topics were MENTIONED but not yet fully taught. These will be extr
 
 ---
 
-*Last updated: 2026-06-12 | Based on: 2 training sessions analyzed (Week 1 Day 2 & Day 3)*
-*Next update after: Week 2 sessions*
+## 16. Wallet Management System (钱包管理)
+
+> **Source:** Week 2 Day 1 (June 16, 2026) — First introduction. This is the financial foundation layer that sits BEFORE any technical analysis.
+
+### 16.1 The 3-Layer Capital Allocation
+
+Before ANY trade or investment, total net worth must be split:
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                 TOTAL NET WORTH (总资产)                     │
+├────────────────────────────────────────────────────────────┤
+│  LAYER 1: 生存支出 (Survival) — ~50%                       │
+│  ├── Daily living (food, rent, utilities, insurance)       │
+│  ├── DEBT REPAYMENT (housing, car, personal loans)          │
+│  │   └── Must have concrete 12-24 month repayment plan      │
+│  └── Trainer's approach: Secured 10+ years of runway       │
+│                                                            │
+│  LAYER 2: 备用金 (Emergency Reserve) — 20-30%              │
+│  ├── Medical emergencies (self + family)                   │
+│  ├── Accidents, unexpected major life events               │
+│  └── UNTOUCHABLE for investment — this is insurance        │
+│                                                            │
+│  LAYER 3: 投资资金 (Investment Capital) — Remaining ~30%   │
+│  ├── ONLY layer for any investment/trading activity         │
+│  ├── Aggressive: 30% (when L1+L2 are fully funded)         │
+│  ├── Conservative: 10-20%                                  │
+│  └── EVERY investment is ONE PORTION of this layer only     │
+└────────────────────────────────────────────────────────────┘
+```
+
+### 16.2 The Bullet Method (子弹法)
+
+The investment capital is subdivided into 100 "bullets":
+
+```
+FORMULA: Per-Bullet Size = Investment Capital ÷ 100
+
+ALLOCATION:
+  1 bullet  (1%)   = Testing / low conviction project
+  3-5 bullets (3-5%)  = Moderate conviction investment
+  5-10 bullets (5-10%) = High conviction project
+  10-20 bullets (10-20%) = Trading allocation
+
+Example ($50,000 investment capital):
+  Per bullet = $500
+  Trading allocation = 20 bullets = $10,000
+```
+
+### 16.3 Within-Trading Sub-Allocation
+
+```
+TRADING CAPITAL (e.g., 20 bullets / $10,000):
+  ├─ 50% Spot/DCA (现货/定投) — $5,000 long-term passive
+  └─ 50% Contract/FX (合约/外汇) — $5,000 active trading
+
+PLATFORM SEPARATION:
+  ├─ NEVER keep all funds on one exchange
+  ├─ NEVER keep all funds in one wallet
+  └─ Spread across multiple platforms
+```
+
+### 16.4 Small Account Rules
+
+| Total Net Worth | Allocation Strategy |
+|----------------|-------------------|
+| **<$1,000** | Skip 3-layer. 100% into contracts. 70-80% copy-trade + 20-30% self-trade. Still split into 10-20 parts. |
+| **$1,000-$10,000** | Simplified 3-layer. All-in on trading acceptable (capital too small to split meaningfully). |
+| **≥$10,000** | FULL 3-layer system mandatory. Bullet Method applied. |
+
+> **Trainer's words:** "1万以下，你就把它 all in 是没有问题的！因为你才八九千，你也发不了财...但是1万以上10万以上你一定要有这种分配"
+
+### 16.5 Regular Rebalancing
+
+- **Monthly/Quarterly audit** of total net worth
+- When capital grows: Extract profits from contracts → increase spot/DCA
+- When capital shrinks: Keep within allocated bullets, don't add
+- **Quote:** "资金多了我都会把它拿出来变少一点再去交易"
+
+### 16.6 The FTX/Luna Warning
+
+- Even major platforms can collapse overnight ("瞬间就爆发")
+- Legal recourse is useless ("他都把钱花光了")
+- **Action:** Diversify across exchanges, wallets, and asset types
+- **"鸡蛋放在不同的篮子里"** — Don't put all eggs in one basket
+
+---
+
+## 17. Probability Stacking Framework (概率叠加)
+
+> **Source:** Week 2 Day 1 (June 16, 2026) — REPLACES the simple confidence scoring from Week 1.
+
+### 17.1 The Core Formula
+
+```
+Trade Probability P(N) = 50% + (N × 3%)
+
+Where N = number of confirmed checklist factors (0 ≤ N ≤ 6)
+
+BASELINE: 50% (五五开) — every trade starts here
+INCREMENT: +3% per confirmed checklist factor
+
+P(0) = 50%  |  P(3) = 59%  |  P(6) = 68%
+P(1) = 53%  |  P(4) = 62%
+P(2) = 56%  |  P(5) = 65%
+
+MINIMUM TRADE THRESHOLD: N ≥ 3 (P ≥ 59%)
+MAXIMUM ACHIEVABLE: 68% (even with ALL 6 factors aligned)
+```
+
+### 17.2 Factor Mapping to 6-Step Checklist
+
+| Step | Factor | Add |
+|------|--------|-----|
+| 1 | Trend confirmed in trade direction | +3% |
+| 2 | S/R level identified at entry zone | +3% |
+| 3 | Trendline/Pattern confirmed | +3% |
+| 4 | MACD on active TF confirms direction | +3% |
+| 5 | Price in Fibonacci hunting range | +3% |
+| 6 | Reversal candle (美女/吞没) confirmed | +3% |
+| | **Total (all 6):** | **68%** |
+
+### 17.3 The Rain Prediction Analogy
+
+| Element | Weather | Trading |
+|---------|---------|---------|
+| Baseline | 50% chance of rain | 50% trade wins |
+| Factor 1 | Sun out? No → cloudy | Trend confirmed |
+| Factor 2 | Sky dark/thick clouds? | S/R level |
+| Factor 3 | Ants active on ground? | Pattern/trendline |
+| Factor 4 | Swallows flying low? | MACD signal |
+| Factor 5 | Jamie Hsiao concert? (humor) | Fibonacci range |
+
+> **Live demonstration** with student Yang Moyu during session.
+
+### 17.4 The Umbrella = Stop Loss Principle
+
+```
+IF rain probability > 50%:
+  → Bring an umbrella (带雨伞)
+  → If NO rain: umbrella in bag — no harm
+  → If rain: umbrella protects you
+
+TRADING MAPPING:
+  → ALWAYS set a stop loss (带雨伞)
+  → If price goes your way: SL not hit — no harm
+  → If price goes against you: SL limits loss
+```
+
+> **"今天不管下不下雨，雨伞总得带"** — Regardless of rain or shine, always bring an umbrella.
+
+### 17.5 Key Philosophical Point
+
+> "没有100%的事情，它只有高概率与低概率"
+
+There is NO 100% certainty. Anyone who claims otherwise is a liar ("绝对是骗子"). Trading is about stacking small edges, not finding guarantees.
+
+---
+
+## 18. Community Discipline Rules (社群纪律)
+
+> **Source:** Week 2 Day 1 (June 16, 2026)
+
+### 18.1 No 砍单 (No Stop Removal)
+
+**Definition:** Removing, cancelling, or widening a stop loss to avoid taking a loss.
+
+**FORBIDDEN ACTIONS:**
+- ✗ Removing stop entirely
+- ✗ Moving stop FURTHER from entry (widening)
+- ✗ Changing stop because "it might come back"
+
+**PERMITTED ACTIONS:**
+- ✓ Moving stop to breakeven (at 1:1 R:R)
+- ✓ Trailing stop behind new structural swing
+- ✓ Partial TP with remaining stop unchanged
+
+**PENALTY:** PERMANENT COMMUNITY BAN
+> "这个群如果有人砍单的话，我就把你踢出群里面以后不能进来我们的社群"
+
+### 18.2 Accept Loss Philosophy (认输认亏)
+
+> "亏就亏，知道吧，但是亏的合理" — If it loses, it loses. But the loss must be REASONABLE.
+
+```
+MATH:
+  Lose 200U (proper SL) + Win 600U (1:3 trade) = +400U net
+  Lose 700U (砍单) + Win 600U = -100U net — STILL LOSING
+```
+
+### 18.3 Stop Loss is NON-NEGOTIABLE
+
+> "下任何一个单子，你必须得带止损" — ANY order MUST have a stop loss.
+
+This rule has been emphasized "非常多的遍" (countless times). There are no exceptions.
+
+### 18.4 The Money Respect Principle
+
+> "你要尊重钱，就跟着你，你不尊重钱，不会跟着你的"
+
+Respect money → money stays. Waste money → money leaves. It's almost spiritual ("很灵的").
+
+### 18.5 One-at-a-Time Rule
+
+> "不要一次过下10个单下去...一单一单来"
+
+Maximum 2 concurrent positions. Quality over quantity.
+
+---
+
+## 19. Asset-Specific Holding Rules
+
+> **Source:** Week 2 Day 1 (June 16, 2026)
+
+### 19.1 Duration by Asset Class
+
+| Asset Class | Behavior | Max Hold | Close Rule |
+|-------------|----------|----------|------------|
+| **Metals** (XAUUSD, XAGUSD) | "大多都是横盘的" (range-bound) | Intraday | Close by 11:30PM bedtime if ranging |
+| **Crypto** (BTC, NEAR, HYPE) | "往一个方向走，就走完它" (directional) | Multi-day | Hold to target unless invalidated |
+
+### 19.2 Metal Close Rule
+> "到晚上11点半睡觉前他都还没，他都还在这里徘徊，你是止盈，你是盈利的。或者亏损的请把它平掉"
+
+If a metal position is still ranging by 11:30 PM, CLOSE IT. Profit or loss — doesn't matter. Metals don't trend overnight like crypto does.
+
+### 19.3 Move SL to Breakeven at 1:1 R:R
+
+**Trigger:** When price reaches 1:1 R:R (profit = initial risk)
+**Action:** Move stop loss to entry price
+**Result:** Zero-risk trade — only cost if hit is commissions
+> "把止损点移到你的进场价位...亏的话，就亏个手续费"
+
+---
+
+*Last updated: 2026-06-17 | Based on: 3 training sessions analyzed (Week 1 Day 2, Day 3, Week 2 Day 1)*
+*Model Version: v2.0 — Added Wallet Management, Probability Framework, Community Discipline, Asset-Specific Rules*
+*Next update after: Week 2 Day 2 session*
