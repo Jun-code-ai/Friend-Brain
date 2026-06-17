@@ -67,11 +67,19 @@ STEP 3: 趋势线/形态 (TRENDLINE & PATTERNS)
 ├─ Can you draw a channel? (平行通道)
 ├─ Is price at a trendline boundary?
 ├─ RULE: DON'T predict breakout direction — WAIT and FOLLOW
+├─ TRIANGLE DECISION TREE (Week 2 Day 1):
+│   ├─ If triangle BREAKS upward with momentum → GO LONG
+│   ├─ If triangle LINGERS (慢慢慢悠悠) → continue ORIGINAL trend bias
+│   └─ If triangle breaks DOWN → continue ORIGINAL trend
 └─ OUTPUT: Pattern context + breakout direction bias
 
 STEP 4: MACD + 时间级别 (MACD TIMEFRAME)
 ├─ Scan 45D→15m: Which timeframe's MACD at zero axis?
 ├─ Is EMA52 acting as support or resistance?
+├─ DIVERGENCE CHAIN (Week 2 Day 1 — NEW):
+│   "更小的背离才形成大背离" — Smaller TF divergences CONFIRM larger
+│   Daily divergence → must be confirmed by 8H/6H → confirmed by 4H/1H
+│   Larger TF divergence ONLY valid if smaller TFs also show divergence
 ├─ Is divergence forming? (顶背离/底背离)
 ├─ RULE: Zero axis = S/R. Opposite S/R = target.
 └─ OUTPUT: Active timeframe + directional signal
@@ -119,6 +127,8 @@ CONFIDENCE SCORING:
 3. **After breakout, candles come in packs:** Thick consecutive bodies ("pop pop pop") confirm the breakout is real
 4. **Wick vs Body ratio:** Long wick + small body at S/R = potential reversal. Long body at breakout = continuation.
 5. **Consecutive thick bodies after breakout:** This is the most reliable confirmation — "它只要有一个很粗的，通常它都会连着去的"
+6. **"胖胖的蜡烛" = No Pullback (Week 2 Day 1):** A thick-bodied candle at the end of a completed wave signals STRONG continuation. "那这个波段可能是很认真的，要继续往下跌，他都不回头了" — The market is "serious" about the direction. No pullback expected. OPPOSITE of 美女 (thin body + long wick = reversal).
+7. **"很认真的" Market (Week 2 Day 1):** When price produces consecutive thick bodies without pullback, the market is "determined." This is the TREND day signal vs the RANGE day (choppy EMA52 oscillation).
 
 ### 3.3 Candle Entry Protocol
 ```
@@ -484,6 +494,16 @@ ENTRY: On candle close confirming reversal
 STOP: Beyond the reversal candle's wick (Chart Method B)
 TARGET 1: Previous swing high/low (1:3 R:R minimum)
 TARGET 2: Fibonacci extension of the wave
+
+SCENARIO ANALYSIS (Week 2 Day 1 — NEW):
+  Before entering, map ALL possible price paths:
+  Path A (MOST LIKELY): Price grinds up to resistance → then dumps
+  Path B (LESS LIKELY): Price continues directly down
+  Path C (LEAST LIKELY): Price breaks above all resistance
+  
+  Prepare for ALL paths. Enter only when one CONFIRMS.
+  "是不是有一种感觉是掌控一切的感觉" — Mastery comes from
+  being prepared for every scenario, not from predicting correctly.
 ```
 
 ### 11.2 Breakout Trading (突破进场)
@@ -500,6 +520,19 @@ STOP: Below/above the consolidation zone
 TARGET: Measured move (height of consolidation projected from breakout)
 
 WAIT RULE: Don't enter before breakout. "不要去猜它一定会空"
+
+BREAKOUT-PULLBACK-CONTINUATION (Week 2 Day 1 — NEW):
+  Stage 1: DOWNTREND establishes
+  Stage 2: BREAKOUT above prior swing high ("把最后的高点破掉了")
+  Stage 3: PULLBACK to retest the broken level as support ("回踩")
+  Stage 4: CONTINUATION upward from retest ("回踩上涨")
+  
+  VALIDATION: "所以它现在上涨是逻辑的合理的" — The move is LOGICALLY
+  REASONABLE because the breakout was tested and held. This is NOT
+  speculation — it's pattern confirmation.
+  
+  Demonstrated on NEAR: Weekly confirmed uptrend, daily showed contradiction
+  but trainer chose Weekly (higher TF always wins).
 ```
 
 ### 11.3 Divergence Reversal (背离反转)
