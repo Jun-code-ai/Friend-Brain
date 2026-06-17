@@ -20,6 +20,85 @@ Week 2 Day 1 represents a significant evolution in the training curriculum. The 
 
 These two frameworks are the bridge between theory (Week 1) and sustainable practice. They answer the question: "I know HOW to trade, but how do I MANAGE the money?"
 
+## PART 0: FRAME-VERIFIED VISUAL ANALYSIS (Pixel-Level)
+
+> All findings in this section are backed by direct Python PIL pixel measurements.
+
+### 0.1 Scene-Change Frame Classification (32 frames analyzed)
+
+| Frame | Timestamp | Size | Luma | Type | Key Findings |
+|-------|-----------|------|------|------|-------------|
+| scene_0003 | 00:00.1 | 10KB | 0 | TALK | Pure black (session start) |
+| scene_0009 | 00:00.3 | 15KB | 31 | TALK | White text visible |
+| scene_86535 | 48:04 | 23KB | 1 | TALK | Gold_key, brown_trend, orange present |
+| scene_86929 | 48:18 | 133KB | 32 | **CHART_DARK** | **TEAL_EMA52(2139px)**, **ORANGE_ACCENT(4683px)** — massive orange signature |
+| scene_87145 | 48:25 | 125KB | 32 | **CHART_DIM** | **TEAL_EMA52(2391px)**, **ORANGE_ACCENT(4702px)** |
+| scene_92460 | 51:22 | 121KB | 21 | CHART_DIM | BROWN_TREND(361px), WHITE_TEXT(2388px) |
+| scene_102734 | 57:04 | 181KB | 38 | CHART_DARK | Wallet Mgmt start — PURPLE_SR(125px) |
+| scene_193259 | 1:47:22 | 176KB | **138** | **CHART_LIGHT** ⭐ | **FIRST LIGHT THEME** — 42% white, GOLD_KEY(77px), BROWN_TREND(115px) |
+| scene_193706 | 1:47:37 | 197KB | 25 | CHART_DARK | Theme switch back — TEAL_EMA52(30px), RED_CANDLE(121px) |
+| scene_193917 | 1:47:44 | 176KB | 138 | **CHART_LIGHT** | Back to light theme — WHITE_TEXT(10829px) |
+| scene_194207 | 1:47:54 | 181KB | 138 | **CHART_LIGHT** | WHITE_TEXT(11753px) — max annotation density |
+| scene_194621 | 1:48:07 | 196KB | 25 | CHART_DARK | Final dark theme return |
+| scene_197607 | 1:49:47 | 34KB | **231** | **SLIDE** | Wallet PPT — near-uniform white, BLUE_ACCENT(33px) |
+
+### 0.2 NEW PIXEL SIGNATURE: ORANGE_ACCENT (#D09010)
+
+**Discovery:** Frame scene_86929 at 48:18-48:25 (Gold analysis continuation during break)
+
+- **Color:** RGB(208, 144, 16) / hex #D09010
+- **Massive presence:** 4683-4702 pixel hits per frame (MORE than TEAL_EMA52 at 2139-2391)
+- **NOT in Week 1 reference palette** — this is a brand new drawing color
+- **Context:** Gold (XAUUSD) chart analysis
+- **Likely use:** Custom zone marker, horizontal ray, or indicator color specific to precious metals
+
+### 0.3 NEW PIXEL SIGNATURE: LIGHT TRADINGVIEW THEME
+
+**Discovery:** Frames at 1:47:22-1:48:09 (Probability stacking Q&A segment)
+
+- **Theme characteristics:** luma ~138 (vs dark 21-27), 42% white pixels
+- **Background:** RGB(~245, 246, 250) — very light blue-gray
+- **Key difference from dark theme:**
+  - BROWN_TREND massively more visible (96-115px vs 2-13px in dark)
+  - GOLD_KEY more prominent (73-98px vs 4-30px in dark)
+  - TEAL_EMA52: **NOT DETECTED** (absent in light theme layout)
+  - Candles: pastel/washed out vs vibrant in dark theme
+- **Usage context:** Probability demonstration with heavy annotations. Trainer switches to light theme for teaching clarity.
+- **Theme switch pattern:** Dark(1:47:22)→Light→Dark(1:47:37)→Light(1:47:44)→Dark(1:48:07) — rapid toggling (every 5-15s) during Q&A
+
+### 0.4 TEAL_EMA52 Timeline (Verified Zero-Axis Presence)
+
+```
+SEGMENT                           TEAL_EMA52    MEANING
+─────────────────────────────────────────────────────────
+BTC Analysis (00:00-10:22)        4-288 px      Chart active, EMA52 visible
+Gold Analysis (10:22-19:51)       86-405 px     HIGHEST teal density of session
+Silver Analysis (19:51-25:31)     83-294 px     Chart active
+NEAR/HYPE (33:17-46:00)           80-170 px     Chart active
+Break charts (48:18-48:25)        2139-2391 px  Peak Gold chart (massive orange too)
+Wallet Management (59:30-86:00)   **ZERO**      Pure slides — NO chart visible
+Probability demo (86:00-107:00)   Returns       Charts return
+Light theme (107:22-108:09)       0             No EMA52 on light layout
+```
+
+### 0.5 Break Period Correction
+
+The transcript labels 46:00-56:27 as "BREAK." However, frame analysis reveals:
+- **48:04-51:22:** Active Gold chart analysis CONTINUES (TEAL_EMA52 at peak levels, massive ORANGE_ACCENT signature)
+- **51:30-56:30:** Mixed talking head/dim chart content
+- Actual music-only break: ~46:00-48:00 and 51:30-56:27
+- **Correction:** Trainer continued analyzing Gold charts silently during break period
+
+### 0.6 Content Classifier (Refined for Week 2 Day 1)
+
+| File Size | Luma | Type |
+|-----------|------|------|
+| 150-226KB | 20-30 | DARK_TV Chart (active TradingView) |
+| 127-168KB | 20-25 | SLIDE (presentation content) |
+| 176-181KB | 130-145 | **LIGHT_TV Chart** (teaching mode) |
+| 34KB | 200+ | WHITEBOARD/SLIDE (PPT) |
+| 10-67KB | 0-31 | TALKING HEAD / WEBCAM |
+
 ---
 
 ## PART 1: LIVE MARKET ANALYSIS (First Half)

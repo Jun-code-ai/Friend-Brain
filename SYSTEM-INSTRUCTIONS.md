@@ -2,10 +2,11 @@
 
 > **⚠️ CRITICAL: READ THIS FIRST before processing any new training video.**
 > **THESE ARE LIFE-AND-DEATH OPERATIONAL ORDERS. EXECUTE WITH PERFECTION.**
-> These instructions capture the EXACT methodology developed across 2 full training sessions,
-> 3 analysis passes, 9 total agents deployed, 31 verified implementation details,
+> These instructions capture the EXACT methodology developed across 3 full training sessions,
+> 5 analysis passes, 15 total agents deployed, 31+ verified implementation details,
 > and 6-dimension psychological/behavioral/linguistic/visual/motivational/cross-reference profiling.
-> Updated: 2026-06-12 | Protocol Version: 3.0
+> Updated: 2026-06-17 | Protocol Version: 3.1
+> **NEW in v3.1:** ORANGE_ACCENT color (#D09010), LIGHT TradingView theme signatures, Slide content classifier
 
 ---
 
@@ -136,6 +137,13 @@ CHART_ELEMENTS = {
     "entry_labels":           {"color": "white text pixels, 0.3-2.3% density", "meaning": "Entry/stop/target price labels"},
     "yellow_annotation":      {"color": "yellow 0.01-7.4%", "meaning": "Highlighted key levels or formulas"},
     "extensive_annotation":   {"color": "36K-84K white pixels", "meaning": "Full trade setup annotated on chart"},
+    
+    # NEW Week 2 Day 1 Signatures
+    "orange_accent":          {"color": "orange-brown RGB(208,144,16) hex #D09010", "density": "up to 4702px (more than teal)", "meaning": "Gold-specific drawing/zone marker, extremely prominent"},
+    "light_tradingview_bg":   {"luma": 130-145, "white_pct": "40-45%", "file_size": "176-181KB", "meaning": "Teaching-mode light chart for probability/demo segments"},
+    "light_theme_candles":    {"color": "pastel/washed out red and green", "meaning": "Candles in light TradingView theme — less vibrant than dark theme"},
+    "slide_ppt":              {"file_size": "127-168KB", "luma": 20-38, "teal": 0, "meaning": "Presentation slides (Wallet Management PPT)"},
+    "slide_whiteboard":       {"file_size": "34KB", "luma": 200+, "meaning": "Near-white slides with sparse text"},
 }
 ```
 
@@ -294,28 +302,32 @@ Before reporting completion, verify ALL items:
 | Light TradingView | 100-286KB | 200-255 | Teaching clarity, settings (~35% of time) |
 
 ### Content Signatures (Unique Fingerprints)
-| Content Type | Red% | Green% | Blue% | Cyan% | Yellow% | White% | Bot% |
-|-------------|------|--------|-------|-------|---------|--------|------|
-| R:R Comparison Table | 2.5 | 7.5 | — | — | 0.9 | — | 36 |
-| Stop Loss Formula Board | — | — | 3.4 | 0.4 | 0.7 | **41.7** | **48** |
-| 45D MACD Divergence | — | — | 0.2 | **1.3** | — | **2.3** | 10 |
-| STO Max Visibility | — | — | **1.1** | — | 0.1 | 0.7 | 10 |
-| BTC Entry Annotated | 0.5-0.8 | 0-0.1 | 0.1-0.2 | 0.4-0.6 | 0.05-0.1 | 1.5-2.5 | 12 |
-| Checklist Slide | 0.4-1.6 | — | 0.4-1.4 | — | 1.2-7.4 | — | — |
-| Normal Dark Chart | 0.1-0.6 | 0 | 0.04-0.2 | 0.01-0.1 | 0-0.02 | 0.1-0.3 | 9-12 |
-| Talking Head/Break | — | — | — | — | — | — | — |
+| Content Type | Red% | Green% | Blue% | Cyan% | Yellow% | White% | Bot% | TEAL px |
+|-------------|------|--------|-------|-------|---------|--------|------|---------|
+| R:R Comparison Table | 2.5 | 7.5 | — | — | 0.9 | — | 36 | 0 |
+| Stop Loss Formula Board | — | — | 3.4 | 0.4 | 0.7 | **41.7** | **48** | 0 |
+| 45D MACD Divergence | — | — | 0.2 | **1.3** | — | **2.3** | 10 | 0 |
+| STO Max Visibility | — | — | **1.1** | — | 0.1 | 0.7 | 10 | 0 |
+| BTC Entry Annotated | 0.5-0.8 | 0-0.1 | 0.1-0.2 | 0.4-0.6 | 0.05-0.1 | 1.5-2.5 | 12 | 4-288 |
+| Checklist Slide | 0.4-1.6 | — | 0.4-1.4 | — | 1.2-7.4 | — | — | 0 |
+| Normal Dark Chart | 0.1-0.6 | 0 | 0.04-0.2 | 0.01-0.1 | 0-0.02 | 0.1-0.3 | 9-12 | 4-405 |
+| **Gold Chart w/ ORANGE (NEW)** | — | — | — | — | — | — | — | **2139-2391** |
+| **Light Theme Chart (NEW)** | — | — | — | — | — | **42%** | — | **0** |
+| **Wallet PPT Slide (NEW)** | — | — | — | — | — | 0-1% | — | **0** |
+| Talking Head/Break | — | — | — | — | — | — | — | 0 |
 
-File sizes: Talking=16KB, Break=16KB, Slides=55-277KB, Charts=80-286KB
+File sizes: Talking=10-34KB, Break=16-34KB, Slides=127-168KB, Charts=150-226KB, Light Charts=176-181KB
 
-### Frame Types by File Size
+### Frame Types by File Size (Updated)
 | Size Range | Type | Action |
 |-----------|------|--------|
-| 16-18KB | Talking head or break | Skip detailed analysis |
-| 41-55KB | Simple slide or transition chart | Classify only |
-| 55-98KB | Content slide or annotated chart | Analyze text/slide content |
-| 80-160KB | Dark chart (normal analysis) | Full pixel analysis |
-| 160-200KB | Light chart or detailed slide | Full pixel + text analysis |
-| 200-286KB | Ultra-detailed (checklist slides, heavy annotations) | MAXIMUM analysis priority |
+| 10-34KB | Talking head or break | Skip detailed analysis |
+| 34KB | PPT/slide (whiteboard) | Classify only |
+| 41-67KB | Simple slide or transition chart | Classify only |
+| 67-125KB | Mixed content / dim chart | Analyze if chart elements present |
+| 127-168KB | Slide/presentation (Wallet PPT) | Analyze text/slide content |
+| 150-226KB | Dark chart (normal analysis) | Full pixel analysis |
+| 176-181KB | Light chart (teaching mode) | Full pixel + text analysis |
 
 ---
 
@@ -340,6 +352,32 @@ File sizes: Talking=16KB, Break=16KB, Slides=55-277KB, Charts=80-286KB
 | Annotation text | White (255, 255, 255) | #FFFFFF |
 | Formula/annotation highlight | Yellow (varying) | — |
 | Settings dialog accent | Blue (96, 176, 240) and (64, 144, 224) | #60B0F0, #4090E0 |
+| **ORANGE_ACCENT (NEW W2D1)** | **Orange-Brown (208, 144, 16)** | **#D09010** |
+| **Gold zone marker (NEW W2D1)** | **Heavy orange drawing, 4683+ px** | **#D09010** |
+
+### Light Theme Detection (NEW — Week 2 Day 1)
+
+| Indicator | Dark Theme | Light Theme |
+|-----------|-----------|-------------|
+| Luma | 15-27 | **130-145** |
+| White pixel % | 0-3% | **40-45%** |
+| File size | 80-226KB | 176-181KB |
+| TEAL_EMA52 | Present | **ABSENT** |
+| BROWN_TREND | 2-13px | **96-115px** (much more visible) |
+| GOLD_KEY | 4-30px | **73-98px** (much more visible) |
+| Candle colors | Vibrant red/green | Pastel/washed out |
+| When used | Analysis mode | Teaching/demonstration mode |
+
+### Content Type Classifier (Updated with Week 2 Day 1)
+
+| Size Range | Luma | TEAL | Type |
+|-----------|------|------|------|
+| 10-34KB | 0-31 | 0 | Talking head or break (no screen share) |
+| 34KB | 200+ | 0 | PPT slide (whiteboard) |
+| 67-125KB | 1-32 | 0-varies | Mixed content / dim chart |
+| 127-168KB | 20-38 | 0 | Slide/presentation (Wallet PPT) |
+| 150-226KB | 20-30 | 4-405 | Dark TradingView chart (active) |
+| 176-181KB | 130-145 | 0 | **Light TradingView chart (teaching)** |
 
 ---
 
